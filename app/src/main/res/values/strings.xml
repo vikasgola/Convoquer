@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Convoquer</string>
+
+    <string name="note">Note:-
+        A: BasketBall,
+        B: Cricket,
+        C: Table Tennis,
+        D: Chess,
+        E: VolleyBall,
+        F: Carrom,
+        G: Badminton(Men),
+        H: Badminton(Women)
+    </string>
 </resources>

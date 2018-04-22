@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Results">
+
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:id="@+id/table_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Points Table"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_weight="1"
+                android:layout_height="3dp"
+                android:background="@color/colorPrimaryDark" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="Branch"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="C"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="E"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="F"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="G"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_weight="1"
+                android:layout_height="3dp"
+                android:background="@color/colorPrimaryDark" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="CS"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/CS1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+            <TextView
+                android:id="@+id/CS2"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+            <TextView
+                android:id="@+id/CS3"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="C"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+            <TextView
+                android:id="@+id/CS4"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+            <TextView
+                android:id="@+id/CS5"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="E"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/CS6"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="F"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/CS7"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="G"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/CS8"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                 />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_weight="1"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="ME"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ME1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/ME2"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/ME3"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="C"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/ME4"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/ME5"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="E"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/ME6"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="F"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/ME7"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="G"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/ME8"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_weight="1"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="EE"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/EE1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/EE2"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/EE3"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="C"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/EE4"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/EE5"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="E"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/EE6"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="F"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/EE7"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="G"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/EE8"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="H"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_weight="1"
+                android:layout_height="3dp"
+                android:background="@color/colorPrimaryDark" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:text="@string/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
