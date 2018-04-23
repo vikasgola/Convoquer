@@ -7,10 +7,10 @@ The dexterous app, one step ahead in giving you all the real-time updates for th
 
 ## Screenshots
 
-<img src="files/1.png"> </a>
+<img src="files/1-small.png"> </a>
 
-<img src="files/2.png"> </a>
+<img src="files/2-small.png"> </a>
 
-<img src="files/3.png"> </a>
+<img src="files/3-small.png"> </a>
 
-<img src="files/4.png"> </a>
+<img src="files/4-small.png"> </a>
