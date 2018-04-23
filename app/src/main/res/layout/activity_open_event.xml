@@ -48,13 +48,13 @@
             android:text="Schedules"
             android:layout_height="wrap_content" />
 
-        <io.github.vikasgola.gamingevent.NonScroll
+        <io.github.vikasgola.convoquer.NonScroll
             android:id="@+id/listView"
             tools:listitem="@layout/schedule_item"
             android:layout_width="match_parent"
             android:layout_marginBottom="1dp"
             android:layout_height="wrap_content">
-        </io.github.vikasgola.gamingevent.NonScroll>
+        </io.github.vikasgola.convoquer.NonScroll>
 
         <TextView
             android:background="@color/colorPrimaryDark"
@@ -68,11 +68,11 @@
             android:text="Participating Teams"
             android:layout_height="wrap_content" />
 
-        <io.github.vikasgola.gamingevent.NonScroll
+        <io.github.vikasgola.convoquer.NonScroll
             android:id="@+id/recyleView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:listitem="@layout/team">
-        </io.github.vikasgola.gamingevent.NonScroll>
+        </io.github.vikasgola.convoquer.NonScroll>
     </LinearLayout>
 </ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "261853986179",
+    "firebase_url": "https://convoquer2018.firebaseio.com",
+    "project_id": "convoquer2018",
+    "storage_bucket": "convoquer2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261853986179:android:f48b6ba8b14b0c15",
+        "android_client_info": {
+          "package_name": "io.github.vikasgola.convoquer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261853986179-88faf1lj6n4vt87ards3pbj5t3lptq7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.vikasgola.convoquer",
+            "certificate_hash": "97ee4b773b0637ff6235911ac1995f2a3593fbf8"
+          }
+        },
+        {
+          "client_id": "261853986179-71f50fjihpe7rsq730ba54qecun4o65b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_IX-v1okkt6cCCff2mcyaAcN74AmM6B4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261853986179-71f50fjihpe7rsq730ba54qecun4o65b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -17,11 +17,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                Bundle bundle3 =new Bundle();
-                bundle3.putString("key","Results");
-                Results current3 = new Results();
-                current3.setArguments(bundle3);
-                return current3;
+                return new Results();
             case 2:
                 Bundle bundle1 =new Bundle();
                 bundle1.putString("key","upcoming");
